@@ -1,0 +1,29 @@
+{
+  "name": "void",
+  "version": "1.0.0",
+  "description": "typescript void value on runtime",
+  "main": "void.js",
+  "module": "void.mjs",
+  "browser": "./dist/void.min.js",
+  "umd::main": "./dist/void.js",
+  "types": "./type/void.d.ts",
+  "typings": "./type/void.d.ts",
+  "scripts": {
+    "build": "tsc && rollup -c rollup.config.cjs.js && rollup -c && rollup -c rollup.config.min.js && rollup -c rollup.config.es.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeowType/Void.git"
+  },
+  "author": "Meowtype",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MeowType/Void/issues"
+  },
+  "homepage": "https://github.com/MeowType/Void#readme",
+  "devDependencies": {
+    "rollup": "^1.7.4",
+    "rollup-plugin-terser": "^4.0.4",
+    "typescript": "^3.4.1"
+  }
+}
