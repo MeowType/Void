@@ -1,5 +1,5 @@
 {
-  "name": "void",
+  "name": "@meowtype/void",
   "version": "1.0.0",
   "description": "typescript void value on runtime",
   "main": "void.js",
@@ -25,5 +25,6 @@
     "rollup": "^1.7.4",
     "rollup-plugin-terser": "^4.0.4",
     "typescript": "^3.4.1"
-  }
+  },
+  "dependencies": {}
 }
