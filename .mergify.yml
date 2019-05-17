@@ -1,7 +1,7 @@
 pull_request_rules:
   - name: automatic merge for bot pull requests on master
     conditions:
-      - merged
+      - merged=false
     actions:
       merge:
         method: merge
