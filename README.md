@@ -6,6 +6,19 @@ import { Void } from 'void'
 
 const x: void = Void
 ```
+```typescript
+import { Void, isVoid, isVoidNonStrict } from 'void'
+
+isVoid(Void)
+// true
+isVoid(null)
+// false
+
+isVoidNonStrict(Void)
+// true
+isVoidNonStrict(null)
+// true
+```
 ---
 <br>  
 <br>  
