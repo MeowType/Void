@@ -1,6 +1,6 @@
 {
   "name": "@meowtype/void",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "typescript void value on runtime",
   "main": "void.js",
   "module": "void.mjs",
