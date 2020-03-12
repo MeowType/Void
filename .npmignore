@@ -1,6 +1,0 @@
-src
-tsout
-.vscode
-tsconfig.json
-rollup.config.js
-rollup.config.*.js

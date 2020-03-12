@@ -1,6 +1,6 @@
 {
   "name": "@meowtype/void",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "typescript void value on runtime",
   "main": "void.js",
   "module": "void.mjs",
@@ -8,6 +8,13 @@
   "umd::main": "./dist/void.js",
   "types": "./type/void.d.ts",
   "typings": "./type/void.d.ts",
+  "files": [
+    "src",
+    "type",
+    "dist",
+    "void.js",
+    "void.mjs"
+  ],
   "scripts": {
     "build": "tsc && rollup -c rollup.config.cjs.js && rollup -c && rollup -c rollup.config.min.js && rollup -c rollup.config.es.js"
   },
