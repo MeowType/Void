@@ -2,12 +2,12 @@
 Typescript void value on runtime
 
 ```typescript
-import { Void } from 'void'
+import { Void } from '@meowtype/void'
 
 const x: void = Void
 ```
 ```typescript
-import { Void, isVoid, isVoidNonStrict } from 'void'
+import { Void, isVoid, isVoidNonStrict } from '@meowtype/void'
 
 isVoid(Void)
 // true
